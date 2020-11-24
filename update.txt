@@ -1,0 +1,8 @@
+UserId    uint      `json:"user_id"`
+Type      uint8     `json:"type"`
+TypeDesc  string    `json:"type_desc"`
+Title     string    `json:"title"`
+Content   string    `gorm:"type:text" json:"content"`
+Scope     uint8     `json:"scope"`
+ScopeDesc string    `json:"scope_desc"`
+ExpiredAt time.Time `json:"expired_at"`

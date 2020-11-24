@@ -1,0 +1,6 @@
+UserId    uint      `json:"user_id"`
+Status      uint8     `json:"type"`
+Products            []Product
+Scope     uint8     `json:"scope"`
+ScopeDesc string    `json:"scope_desc"`
+CreatedAt time.Time `json:"expired_at"`

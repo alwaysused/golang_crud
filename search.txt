@@ -1,0 +1,5 @@
+StartTime           string `json:"start_time"`
+EndTime             string `json:"end_time"`
+Title 				string `json:"title"`
+Type 				uint `json:"type"`
+UserId              uint   `json:"user_id"`
